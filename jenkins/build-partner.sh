@@ -13,5 +13,5 @@ echo "Completed - copying file from $WARFilePath to $LocalWorkspace/target/$fold
 
 cd "$LocalWorkspace/target/"
 echo "Starting - Upload folder to S3 bucket"
-/usr/local/bin/aws s3 cp $foldername "s3://insureall/Builds/Partners/$foldername/" --recursive
+/usr/local/aws-cli/v2/2.4.6/dist/aws s3 cp $foldername "s3://insureall/Builds/Partners/$foldername/" --recursive
 echo "Completed - Upload folder to S3 bucket"
