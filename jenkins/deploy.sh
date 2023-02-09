@@ -16,7 +16,7 @@ echo "The Local Workspace is: $LocalWorkspace"
 echo "The DateTimeStamp is: $CurrentDateTime"
 
 ########## Declaring the server names by the environment ##########
-DevEnvServers=("172.31.56.174")
+DevEnvServers=("3.219.54.162")
 SitEnvServers=("172.31.40.153")
 UATEnvServers=("UAT1" "UAT2" "UAT3")
 ProdEnvServers=("Prod1" "Prod2" "Prod3")
